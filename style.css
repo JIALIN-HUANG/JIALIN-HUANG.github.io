@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-
 body {
   margin: 0;
   padding: 0;
-  background: #E2EFDE;
+  background: #e2efde;
 }
 
 .container {
@@ -29,23 +28,23 @@ li a {
   padding: 0 20px;
 }
 
-.l1{
+.l1 {
   position: absolute;
-width: 95vw;
-height: 0px;
-left: 2%;
-top: 73px;
+  width: 95vw;
+  height: 0px;
+  left: 2%;
+  top: 73px;
 
-border: 1px solid #000000;
+  border: 1px solid #000000;
 }
 
 .cool-link::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 2px;
   background: white;
-  transition: width .3s;
+  transition: width 0.3s;
 }
 
 .cool-link:hover::after {
@@ -54,7 +53,7 @@ border: 1px solid #000000;
 }
 
 .home {
-    position: absolute;
+  position: absolute;
   width: 100%;
   top: 8%;
   padding: 20px;
@@ -67,53 +66,48 @@ ul {
 .headline {
   display: flex;
   position: absolute;
-width: 539px;
-height: 72px;
-right: 5%;
-top: 500%;
+  width: 539px;
+  height: 72px;
+  right: 5%;
+  top: 500%;
 
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 64px;
-line-height: 84%;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 84%;
 }
-
 
 .one {
   position: flex;
   width: 370px;
-margin-left: 940px;
+  margin-left: 940px;
   margin-top: 320px;
 }
 
-.yu{
+.yu {
   position: absolute;
-width: 409px;
-margin-left: -550px;
+  width: 409px;
+  margin-left: -550px;
   margin-top: 590px;
 }
 
-.l2{
+.l2 {
   position: absolute;
   width: 95vw;
   height: 0px;
   left: 2%;
   top: 203px;
 
-border: 1px solid #000000;
+  border: 1px solid #000000;
 }
 
-.core{
+.core {
   position: absolute;
-width: 327px;
-height: 404px;
-left: 212px;
-top: 384px;
+  left: 10%;
+  top: 384px;
 
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 144px;
-line-height: 84%;
+  font-family: Bebas Neue;
+  font-size: 144px;
+  line-height: 84%;
 }
