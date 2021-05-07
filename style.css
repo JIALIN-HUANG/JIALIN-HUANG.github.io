@@ -4,13 +4,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: #b3cdd1;
+  background: #E2EFDE;
 }
 
 .container {
   position: absolute;
-  top: 5%;
-  left: 50%;
+  width: 700px;
+  top: 15%;
+  left: 55%;
   transform: translateX(-50%) translateY(-50%);
 }
 
@@ -21,11 +22,21 @@ li {
 li a {
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: black;
   font-family: "Bebas Neue", cursive;
   font-weight: lighter;
   font-size: 50px;
   padding: 0 20px;
+}
+
+.l1{
+  position: absolute;
+width: 95vw;
+height: 0px;
+left: 2%;
+top: 73px;
+
+border: 1px solid #000000;
 }
 
 .cool-link::after {
@@ -46,7 +57,6 @@ li a {
     position: absolute;
   width: 100%;
   top: 8%;
-  background-color: #b3cdd1;
   padding: 20px;
 }
 
@@ -55,12 +65,55 @@ ul {
 }
 
 .headline {
-  font-size: 5rem;
-  font-family: "Bebas Neue", cursive;
+  display: flex;
+  position: absolute;
+width: 539px;
+height: 72px;
+right: 5%;
+top: 500%;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 84%;
 }
 
 
 .one {
-  width: 45%;
-  height: 50%;
+  position: flex;
+  width: 370px;
+margin-left: 940px;
+  margin-top: 320px;
+}
+
+.yu{
+  position: absolute;
+width: 409px;
+margin-left: -550px;
+  margin-top: 590px;
+}
+
+.l2{
+  position: absolute;
+  width: 95vw;
+  height: 0px;
+  left: 2%;
+  top: 203px;
+
+border: 1px solid #000000;
+}
+
+.core{
+  position: absolute;
+width: 327px;
+height: 404px;
+left: 212px;
+top: 384px;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 84%;
 }
