@@ -5,3 +5,8 @@
     font-size: 50px;
     text-decoration: none;
   }
+
+  .projectList{
+    position: absolute;
+    top: 30%;
+  }
