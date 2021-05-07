@@ -95,6 +95,15 @@
     margin-top: 260px;
 }
 
+.dpn{
+  color: #000000;
+  text-decoration: none;
+}
+
+.dpn:hover{
+  color: darkred;
+}
+
 .back{
   position: absolute;
   width: 539px;

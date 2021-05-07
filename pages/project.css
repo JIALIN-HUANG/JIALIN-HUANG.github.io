@@ -11,6 +11,10 @@
     top: 30%;
   }
 
+  /* .container:hover{
+color: grey;
+  } */
+
   a:link{
     font-family: "Bebas Neue", cursive;
     font-weight: lighter;
@@ -18,7 +22,8 @@
   }
 
   
-  .projectList,.nav-links {
+  .projectList,
+  .nav-links {
     text-decoration: none;
     display: inline-block;
     color: black;
@@ -27,7 +32,7 @@
     font-size: 50px;
     padding: 0 20px;
     line-height: 148%;
-    left: 20%;
+    left: 19%;
   }
 
   .projectList,.nav-links:hover,.studio{
@@ -40,7 +45,7 @@
     flex-direction:column;
     color: black;
 
-    margin-right: 150px;
+    margin-right: 240px;
    margin-top: 450px;
     text-align: right;
     font-family: "Bebas Neue", cursive;
