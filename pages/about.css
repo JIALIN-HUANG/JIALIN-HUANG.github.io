@@ -11,7 +11,7 @@
 }
 
 .l1 {
-  position: flex;
+  position: absolute;
   width: 95vw;
   height: 0px;
   left: 2%;
@@ -21,7 +21,7 @@
 }
 
 .l2 {
-  position: flex;
+  position: absolute;
   width: 95vw;
   height: 0px;
   left: 2%;

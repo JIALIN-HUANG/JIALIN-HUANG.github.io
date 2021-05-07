@@ -10,3 +10,14 @@
     position: absolute;
     top: 30%;
   }
+
+  
+  .projectList {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 0 20px;
+  }
