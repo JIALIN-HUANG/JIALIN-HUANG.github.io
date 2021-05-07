@@ -11,8 +11,14 @@
     top: 30%;
   }
 
+  a:link{
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+  }
+
   
-  .projectList {
+  .projectList,.nav-links {
     text-decoration: none;
     display: inline-block;
     color: black;
@@ -20,4 +26,26 @@
     font-weight: lighter;
     font-size: 50px;
     padding: 0 20px;
+    line-height: 148%;
+    left: 20%;
+  }
+
+  .projectList,.nav-links:hover,.studio{
+    color: grey;
+  }
+
+  .studio{
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    color: black;
+
+    margin-right: 150px;
+   margin-top: 450px;
+    text-align: right;
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    padding: 0 20px;
+    line-height: 148%;
   }
